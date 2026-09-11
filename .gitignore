@@ -1,0 +1,38 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw dataset
+data/raw/twcs.csv
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Environment/secrets
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*_BACKUP.*
